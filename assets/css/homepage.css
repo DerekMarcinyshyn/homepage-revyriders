@@ -1,0 +1,67 @@
+/* Homepage CSS
+   @author: Derek Marcinyshyn <derek@marcinyshyn.com>
+*/
+
+.mmm-homepage-wrapper {
+	display: none;
+}
+
+.mmm-homepage-wrapper,
+.mmm-homepage-wrapper .mmm-homepage-element {
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-ms-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+
+.mmm-homepage-wrapper {
+	margin-top:30px;
+
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+
+.mmm-homepage-wrapper .mmm-homepage-element {
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	background: #222;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+	margin-bottom: 20px;
+	width: 350px;
+
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: -o-transform, opacity;
+	transition-property: transform, opacity;
+}
+
+.homepage-loader {
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+.home .page-header {
+	display: none;
+}
+
+.mmm-homepage-element h3 {
+	margin: 0 0 10px 0;
+}
+
+.mmm-homepage-element .widget-inner h3 {
+	display: none;
+}
+
+.mmm-homepage-element .widget {
+	margin-left: 0;
+}
+
+
