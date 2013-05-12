@@ -8,8 +8,8 @@
 
 ## Contributors:
 
-*Derek Marcinyshyn [derek.marcinyshyn.com](http://derek.marcinyshyn.com)
-*David DeSandro [desandro.com](http://desandro.com)
+* Derek Marcinyshyn [derek.marcinyshyn.com](http://derek.marcinyshyn.com)
+* David DeSandro [desandro.com](http://desandro.com)
 
 ## Description
 
