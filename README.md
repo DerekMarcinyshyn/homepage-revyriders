@@ -5,15 +5,15 @@
 * Derek Marcinyshyn [derek.marcinyshyn.com](http://derek.marcinyshyn.com)
 * David DeSandro [desandro.com](http://desandro.com)
 
-* **Version**: 1.5
-* ~Current Version:1.5~
-* **Requires at least**: 3.0
-* **Tested up to**: 3.5
+* **Version**: 1.0
+* ~Current Version:1.0~
+* **Requires at least**: 3.3
+* **Tested up to**: 3.6
 * **License**: GPLv2
 
 ## Description
 
-Organizes your homepage where add elements and then it creates a masonry style of layout.
+RevyRiders.com homepage plugin. Creates a masonry tiled layout for a dynamic homepage.
 
 ## Features
 
