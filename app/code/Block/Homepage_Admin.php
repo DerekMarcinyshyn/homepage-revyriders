@@ -142,6 +142,14 @@ if ( ! class_exists( 'Homepage_Admin' ) ) :
                         <td class="row-title"><label for="tablecell">Homepage News</label></td>
                         <td><code style="padding:5px 5px; background: #fefbf3; border:1px solid #ddd;">&lt;?php dynamic_sidebar("homepage-news"); ?&gt;</code></td>
                     </tr>
+                    <tr>
+                        <td class="row-title"><label for="tablecell">Homepage Forum Topics</label></td>
+                        <td><code style="padding:5px 5px; background: #fefbf3; border:1px solid #ddd;">&lt;?php dynamic_sidebar("homepage-forum-topics"); ?&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td class="row-title"><label for="tablecell">Homepage Forum Replies</label></td>
+                        <td><code style="padding:5px 5px; background: #fefbf3; border:1px solid #ddd;">&lt;?php dynamic_sidebar("homepage-forum-replies"); ?&gt;</code></td>
+                    </tr>
                  </tbody>
             </table>
             </div>

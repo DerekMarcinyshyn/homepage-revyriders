@@ -99,6 +99,24 @@ if ( ! class_exists( 'Homepage_App' ) ) :
                 'after_title'   => '</h3>',
             ));
 
+					register_sidebar(array(
+						'name'          => __('Homepage Forum Topics', 'homepage'),
+						'id'            => 'homepage-forum-topics',
+						'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-inner">',
+						'after_widget'  => '</div></section>',
+						'before_title'  => '<h3>',
+						'after_title'   => '</h3>',
+					));
+
+					register_sidebar(array(
+						'name'          => __('Homepage Forum Replies', 'homepage'),
+						'id'            => 'homepage-forum-replies',
+						'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-inner">',
+						'after_widget'  => '</div></section>',
+						'before_title'  => '<h3>',
+						'after_title'   => '</h3>',
+					));
+
         }
 
         /**
